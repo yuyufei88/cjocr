@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chu/CLionProjects/cj_ocr/cjocr.h
+iostream
+-
+opencv2/opencv.hpp
+-
+
+/home/chu/CLionProjects/cj_ocr/main.cpp
+iostream
+-
+opencv2/opencv.hpp
+-
+cjocr.h
+/home/chu/CLionProjects/cj_ocr/cjocr.h
+
